@@ -1,0 +1,174 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin sans',sans-serif;
+    background-color: black;
+    color: white;
+}
+.header{
+    height: 20vh;
+    width: 100%;
+    color: white;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:40px 10% 10% ;
+}
+nav>h1{
+    padding: 0px;
+    margin: 0px;
+}
+
+.header>nav>img{
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+nav>ul>li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+nav>ul>li>a{
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+nav>ul>li>a:hover{
+    color: rgb(244, 8, 75);
+    transition: 0.3s;
+}
+.mbutt{
+    border: none;
+    background-color: rgb(246, 246, 73);
+    padding: 12px 30px;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: 0.4s;
+}
+.mbutt:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.a1{
+    background-color:rgb(246, 246, 73);
+    text-decoration: none;
+    color: black;
+}
+
+.mi{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.mcontent>h4,h3{
+    font-weight: lighter;
+    padding: 10px;
+}
+.mcontent>h2{
+    background: linear-gradient(90deg,#05bbf2,#fc00ff);
+    font-family: 'Poppins';
+    font-size: 50px;
+    font-weight: bold;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.mi>img{
+    height: 300px;
+    position: relative;
+    box-shadow: 0 0 35px rgb(242, 242, 132);
+    border-radius: 10px;
+    cursor: grab;
+    border-radius: 40px;
+    opacity: 80%;
+}
+
+.mi>img:hover{
+    opacity: 40%;
+
+}
+.mcontent>button{
+    background: linear-gradient(90deg,rgb(41, 42, 41),rgb(246, 246, 73));
+    font-weight: bolder;
+    padding: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+    transition: 0.4s;
+    color: black;
+}
+.mcontent>button:hover{
+    transform: scale(1.2);
+}
+.mcontent>button>a{
+    text-decoration: none;
+    background: linear-gradient(90deg,rgb(41, 42, 41),rgb(246, 246, 73));
+}
+.mh2{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.middle{
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.python>h2>img,.hncss>h2>img,.js>h2>img,.sql>h2>img,.php>h2>img{
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+    margin-left: 20px;
+}
+.python>h2,.hncss>h2,.php>h2,.js>h2,.sql>h2{
+    margin-bottom: 20px;
+    background-color: lightgrey;
+    color: black;
+}
+
+.python,.hncss,.js,.sql,.php{
+    border: 2px solid grey;
+    height: 300px;
+    width: 300px;
+    margin: 20px;
+    padding: 10px;
+    background-color: lightgrey;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgb(242, 242, 132);
+    transition: 0.3s;
+}
+.python:hover,.hncss:hover,.js:hover,.sql:hover,.php:hover{
+    transform: scale(1.1);
+}
+
+.python>ul>li,.hncss>ul>li,.sql>ul>li,.php>ul>li,.js>ul>li{
+    text-align: left;
+    padding: 2px;
+    list-style-type: none;
+    color: black;
+    font-weight: bolder;
+    background-color: lightgrey;
+}
+.footer{
+    border: none;
+    margin: 15px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 20px;
+    text-align: center;
+}
+
+footer>p,footer>p>a{
+    background-color: gray;
+    color: black;
+    padding: 5px;
+}
